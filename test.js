@@ -1,1 +1,3 @@
-console.log("Running tests...");
+test('basic test', () => {
+  expect(true).toBe(true);
+});
