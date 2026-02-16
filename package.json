@@ -4,10 +4,13 @@
   "description": "Weather application for DevSecOps pipeline",
   "main": "app.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "jest",
     "start": "node app.js"
   },
   "keywords": ["weather", "devsecops"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
